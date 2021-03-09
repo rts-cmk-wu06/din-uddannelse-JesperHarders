@@ -1,0 +1,23 @@
+footer {
+    background-color: #5d4646 ;
+    padding: 20px;
+}
+
+.contact {
+    font-weight: 700;
+    color: white;
+}
+
+.footer-text {
+    color: white;
+}
+
+.copyright {
+    color: white;
+}
+
+.social-media {
+    color: white;
+    margin: 10px;
+    float: right;
+}

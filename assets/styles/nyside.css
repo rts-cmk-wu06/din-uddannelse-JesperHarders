@@ -1,0 +1,91 @@
+.info_image {
+    width: 100%;
+}
+
+.info_text {
+    margin: 24px;
+}
+
+.info_image_two {
+    width: 86%;
+    margin: 24px;
+}
+
+@media (max-width: 375px) {
+    .read_more_two {
+        display: none;
+    }
+}
+
+@media (min-width: 376px) {
+    .image_desktop {
+        width: 420px;
+        order: 1;
+        margin: 32px 30px 24px 48px;
+    }
+
+    .faktaboks_desktop {
+        width: 420px;
+        order: 2;
+        margin: 0 30px 45px 48px;
+    }
+
+    .text_desktop {
+        width: 462px;
+        order: 3;
+        margin: 32px 64px 0 0;
+    }
+
+    .main_desktop {
+        height: 900px;
+        width: 1024px;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    header .logo{
+        height: 80px;
+        width: auto;
+    }
+
+    .new_page_heading {
+        font-size: 48px;
+        width: 670px;
+    }
+
+    .new_page_text {
+        font-size: 16px;
+        width: 670px;
+    }
+
+    .new_page_image {
+        width: 670px;
+        height: 378px;
+    }
+
+    .page_three {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page_three_image {
+        width: 632px;
+    }
+
+    .page_three_heading {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .page_three_text {
+        width: 304px;
+    }
+
+    .page_three_text_two {
+        font-size: 16px;
+    }
+}

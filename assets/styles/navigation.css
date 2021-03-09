@@ -1,0 +1,42 @@
+header {
+    background-color: #c40000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 50%;
+}
+
+.navigation-text {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    align-self: center;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    display: block;
+}
+
+nav {
+    width: 100%;
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
